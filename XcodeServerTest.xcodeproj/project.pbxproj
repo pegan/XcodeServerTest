@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2B97A41FE2FD4F00D29E22 /* XcodeServerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B97A31FE2FD4F00D29E22 /* XcodeServerTestTests.swift */; };
 		AEE914DE1FE2EB43006AD837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE914DD1FE2EB43006AD837 /* AppDelegate.swift */; };
 		AEE914E01FE2EB43006AD837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE914DF1FE2EB43006AD837 /* ViewController.swift */; };
 		AEE914E31FE2EB43006AD837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE914E11FE2EB43006AD837 /* Main.storyboard */; };
@@ -14,7 +15,20 @@
 		AEE914E81FE2EB43006AD837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE914E61FE2EB43006AD837 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AE2B97A61FE2FD4F00D29E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE914D21FE2EB43006AD837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE914D91FE2EB43006AD837;
+			remoteInfo = XcodeServerTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		AE2B97A11FE2FD4F00D29E22 /* XcodeServerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeServerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2B97A31FE2FD4F00D29E22 /* XcodeServerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeServerTestTests.swift; sourceTree = "<group>"; };
+		AE2B97A51FE2FD4F00D29E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEE914DA1FE2EB43006AD837 /* XcodeServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE914DD1FE2EB43006AD837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE914DF1FE2EB43006AD837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE2B979E1FE2FD4F00D29E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE914D71FE2EB43006AD837 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2B97A21FE2FD4F00D29E22 /* XcodeServerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B97A31FE2FD4F00D29E22 /* XcodeServerTestTests.swift */,
+				AE2B97A51FE2FD4F00D29E22 /* Info.plist */,
+			);
+			path = XcodeServerTestTests;
+			sourceTree = "<group>";
+		};
 		AEE914D11FE2EB43006AD837 = {
 			isa = PBXGroup;
 			children = (
 				AEE914DC1FE2EB43006AD837 /* XcodeServerTest */,
+				AE2B97A21FE2FD4F00D29E22 /* XcodeServerTestTests */,
 				AEE914DB1FE2EB43006AD837 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE914DA1FE2EB43006AD837 /* XcodeServerTest.app */,
+				AE2B97A11FE2FD4F00D29E22 /* XcodeServerTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +99,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AE2B97A01FE2FD4F00D29E22 /* XcodeServerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2B97A81FE2FD4F00D29E22 /* Build configuration list for PBXNativeTarget "XcodeServerTestTests" */;
+			buildPhases = (
+				AE2B979D1FE2FD4F00D29E22 /* Sources */,
+				AE2B979E1FE2FD4F00D29E22 /* Frameworks */,
+				AE2B979F1FE2FD4F00D29E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2B97A71FE2FD4F00D29E22 /* PBXTargetDependency */,
+			);
+			name = XcodeServerTestTests;
+			productName = XcodeServerTestTests;
+			productReference = AE2B97A11FE2FD4F00D29E22 /* XcodeServerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AEE914D91FE2EB43006AD837 /* XcodeServerTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEE914EC1FE2EB43006AD837 /* Build configuration list for PBXNativeTarget "XcodeServerTest" */;
@@ -94,9 +144,14 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Piotr Perzanowski";
 				TargetAttributes = {
+					AE2B97A01FE2FD4F00D29E22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						TestTargetID = AEE914D91FE2EB43006AD837;
+					};
 					AEE914D91FE2EB43006AD837 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -114,11 +169,19 @@
 			projectRoot = "";
 			targets = (
 				AEE914D91FE2EB43006AD837 /* XcodeServerTest */,
+				AE2B97A01FE2FD4F00D29E22 /* XcodeServerTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE2B979F1FE2FD4F00D29E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE914D81FE2EB43006AD837 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,6 +195,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE2B979D1FE2FD4F00D29E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2B97A41FE2FD4F00D29E22 /* XcodeServerTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE914D61FE2EB43006AD837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +213,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE2B97A71FE2FD4F00D29E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE914D91FE2EB43006AD837 /* XcodeServerTest */;
+			targetProxy = AE2B97A61FE2FD4F00D29E22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AEE914E11FE2EB43006AD837 /* Main.storyboard */ = {
@@ -163,6 +242,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AE2B97A91FE2FD4F00D29E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LAR4CN34NJ;
+				INFOPLIST_FILE = XcodeServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pegan.XcodeServerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeServerTest.app/XcodeServerTest";
+			};
+			name = Debug;
+		};
+		AE2B97AA1FE2FD4F00D29E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LAR4CN34NJ;
+				INFOPLIST_FILE = XcodeServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pegan.XcodeServerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeServerTest.app/XcodeServerTest";
+			};
+			name = Release;
+		};
 		AEE914EA1FE2EB43006AD837 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -274,12 +388,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LAR4CN34NJ;
 				INFOPLIST_FILE = XcodeServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pegan.XcodeServerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b52f9687-5466-4f1e-80ab-4f2aa41185ca";
+				PROVISIONING_PROFILE_SPECIFIER = "My Development Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +406,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LAR4CN34NJ;
 				INFOPLIST_FILE = XcodeServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pegan.XcodeServerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e7603b3b-1f60-4efb-83f8-5f5c15113d91";
+				PROVISIONING_PROFILE_SPECIFIER = "My Distribution Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +423,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE2B97A81FE2FD4F00D29E22 /* Build configuration list for PBXNativeTarget "XcodeServerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2B97A91FE2FD4F00D29E22 /* Debug */,
+				AE2B97AA1FE2FD4F00D29E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEE914D51FE2EB43006AD837 /* Build configuration list for PBXProject "XcodeServerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
