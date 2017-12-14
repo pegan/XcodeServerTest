@@ -1,0 +1,9 @@
+build
+xcuserdata
+*.mode*
+project.xcworkspace
+*.xcuserstate
+*tmproj
+~*
+.DS_Store
+Breakpoints.xcbkptlist
